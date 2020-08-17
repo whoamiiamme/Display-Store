@@ -1,0 +1,22 @@
+.card {
+	margin-left: 3rem;
+	padding: 1rem 2rem;
+
+	&__heading {
+		font-size: 3rem;
+		text-transform: uppercase;
+	}
+
+	&__list {
+		list-style: none;
+		padding: 2rem 0;
+
+		&:not(:first-child) {
+			margin-top: 3rem;
+		}
+	}
+
+	&__item {
+		font-size: 2rem;
+	}
+}

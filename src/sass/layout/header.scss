@@ -1,0 +1,19 @@
+.header {
+    height: 60vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(102, 153, 255, 0.8),
+        rgba(0, 34, 102, 0.8)),
+    url(./../../image/mountain.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+
+    &__text-box {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+}

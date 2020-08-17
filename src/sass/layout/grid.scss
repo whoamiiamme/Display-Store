@@ -1,0 +1,12 @@
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+
+    [class^="col-"] {
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: 8rem;
+        }
+    }
+}

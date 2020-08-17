@@ -1,0 +1,20 @@
+.section-listaddress {
+	padding: 2rem;
+}
+
+.section-displaymap {
+	padding: 2rem;
+	overflow: hidden;
+
+	&::after {
+		content: "";
+		clear: both;
+		display: inline-block;
+	}
+}
+
+#map {
+	position: relative;
+	/* overflow: hidden; */
+	height: 100rem;
+}

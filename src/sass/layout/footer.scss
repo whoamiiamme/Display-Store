@@ -1,0 +1,25 @@
+.footer {
+	background-color: rgb(38, 38, 38);
+	padding: 5rem 0;
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+
+	&__navigation {
+		border-top: 1px solid #009933;
+		padding-top: 2rem;
+		display: inline-block;
+	}
+
+	&__list {
+		list-style: none;
+	}
+
+	&__item {
+		display: block;
+	}
+
+	&__link {
+		text-decoration: none;
+	}
+}
